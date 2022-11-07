@@ -78,6 +78,7 @@ button {
 .forSecondcomment {
 	width: 50%;
 	border: 1px solid rgb(198, 16, 16);
+	position: relative;
 }
 
 p {
@@ -88,6 +89,20 @@ p {
 	font-size: 30px;
 	display: flex;
 	justify-content: space-between;
+}
+marker {
+	width: 10 0%;
+	border: 3px solid white;
+	color: rgb(48, 3, 249);
+	animation: animatisiya 2s alternate;
+	font-size: 30px;
+	display: flex;
+	justify-content: space-between;
+	color: red;
+}
+.forSecondcomment p{
+	position: absolute;
+	right: 0;
 }
 .forSecondcomment{
 	color: white;
